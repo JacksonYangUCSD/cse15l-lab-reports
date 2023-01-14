@@ -1,7 +1,7 @@
 # Week 1 Lab Report
-## Must have
-- Install [Visual Studio Code](https://code.visualstudio.com/)
-# Optional on non-windows
+## Must do
+ Install [Visual Studio Code](https://code.visualstudio.com/)
+## Optional on non-windows
 - Install [Git](https://gitforwindows.org/)
 - Install [Bash on VS Code](https://stackoverflow.com/a/50527994)
 ## Steps to access remote server
