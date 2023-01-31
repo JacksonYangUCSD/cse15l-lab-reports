@@ -2,7 +2,7 @@
 I wrote a StringServer that was based off of Lab 2's NumberServer.java | 
 Below is the code
 ![](https://i.imgur.com/9xOdrxi.png)
-If we type in http://localhost:2000/add-message?s=Hello we get
+If we type in "http://localhost:2000/add-message?s=Hello" we get
 ![](https://i.imgur.com/82usQ2w.png)
 Many methods are being called to achieve the screenshot:
 1. `getPath().contains("/add-message")` which tells us that we are adding a String to the message
