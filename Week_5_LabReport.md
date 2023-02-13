@@ -26,5 +26,28 @@ Another example would be
 27
 ```
 This is useful because it helps us figure out how many times a phrase or word is used in file. It makes it easier then counting every time we see a file and it more accurately then when a human does it.   
-3. 
-I used this [this](https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/) to research how the `grep` command works.
+3. `grep -R term` finds the file path and lists where you could find the file 
+```
+[cs15lwi23auu@ieng6-202]:written_2:491$ grep -R 'Just north of Puerto' 
+travel_guides/berlitz2/CanaryIslands-WhereToGo.txt:Just north of Puerto, on the road to La Orotavo, there are two places, both open daily 9am–6pm, that have similar themes, but exhibit them in rather different ways. The oldest of these, and closest to town, is undoubtedly the Jardín Botánico (Botanical Garden), founded by royal decree in 1788. Covering some 2.5 hectares (6 acres), it has palms of every variety and the centerpiece is a huge South American fig tree whose enormous branches and roots have become intertwined into one great tree house. Further on, Bananera El Guanche provides fascinating insight into how a Canarian banana plantation operates. By way of a multi-lingual introductory video show, a surprisingly informative and entertaining brochure, and exhibits in its 12,000-sq-m (nearly 3-acre) park which boasts, besides numerous bananas, a superb collection of exotic trees, shrubs, flowers, and cacti from all over the world (open daily 9am–6pm; admission 1,000 ptas, r6.01).
+```
+Another example would be
+```
+[cs15lwi23auu@ieng6-202]:written_2:495$ grep -R 'Pirates Well harks back'  
+travel_guides/berlitz2/Bahamas-WhereToGo.txt:This island 75 miles (120 km) east of Acklins Island, is perhaps the least visited and least developed of all the inhabited Bahamas islands. It has few telephones and electric power is only a recent development. The settlement of Pirates Well harks back to the days when it was a safe outpost for ruthless gangs, but today’s population makes a living from fishing and farming.
+```
+This would be useful because it combines two commands into one. It finds both the path of the file and prints and highlights the word that was sought after for. It saves time because you won't have to look for the path nor look for each instace of the word.  
+4. ` GREP_COLOR='1;35' grep --color=always 'word' file` This changes the color of the highlighted word to your choise
+```
+[cs15lwi23auu@ieng6-202]:written_2:504$ GREP_COLOR='1;35' grep --color=always 'Just north of Puerto' travel_guides/berlitz2/CanaryIslands-WhereToGo.txt
+Just north of Puerto, on the road to La Orotavo, there are two places, both open daily 9am–6pm, that have similar themes, but exhibit them in rather different ways. The oldest of these, and closest to town, is undoubtedly the Jardín Botánico (Botanical Garden), founded by royal decree in 1788. Covering some 2.5 hectares (6 acres), it has palms of every variety and the centerpiece is a huge South American fig tree whose enormous branches and roots have become intertwined into one great tree house. Further on, Bananera El Guanche provides fascinating insight into how a Canarian banana plantation operates. By way of a multi-lingual introductory video show, a surprisingly informative and entertaining brochure, and exhibits in its 12,000-sq-m (nearly 3-acre) park which boasts, besides numerous bananas, a superb collection of exotic trees, shrubs, flowers, and cacti from all over the world (open daily 9am–6pm; admission 1,000 ptas, r6.01).
+```
+Another example would be
+```
+[cs15lwi23auu@ieng6-202]:written_2:506$ GREP_COLOR='1;36' grep --color=always 'Lucayans' travel_guides/berlitz2/Bahamas-History.txt
+Centuries before the arrival of Columbus, a peaceful Amerindian people who called themselves the Luccucairi had settled in the Bahamas. Originally from South America, they had traveled up through the Caribbean islands, surviving by cultivating modest crops and from what they caught from sea and shore. Nothing in the experience of these gentle people could have prepared them for the arrival of the Pinta, the Niña, and the Santa Maria at San Salvador on 12 October 1492. Columbus believed that he had reached the East Indies and mistakenly called these people Indians. We know them today as the Lucayans. Columbus claimed the island and others in the Bahamas for his royal Spanish patrons, but not finding the gold and other riches he was seeking, he stayed for only two weeks before sailing towards Cuba.
+The Spaniards never bothered to settle in the Bahamas, but the number of shipwrecks attest that their galleons frequently passed through the archipelago en route to and from the Caribbean, Florida, Bermuda, and their home ports. On Eleuthera the explorers dug a fresh-water well — at a spot now known as “Spanish Wells” — which was used to replenish the supplies of water on their ships before they began the long journey back to Europe with their cargoes of South American gold. As for the Lucayans, within 25 years all of them, perhaps some 30,000 people, were removed from the Bahamas to work — and die — in Spanish gold mines and on farms and pearl fisheries on Hispaniola (Haiti), Cuba, and elsewhere in the Caribbean.
+```
+Like the time, you can not see how the colors look here but on the terminal it turned from red to purple, and now its blue. This just helps differentiates different words from the same file with association.    
+
+# I used this [this](https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/) to research how the `grep` command works.
