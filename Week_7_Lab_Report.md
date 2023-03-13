@@ -31,7 +31,7 @@ Now I ran `cat /Users/hallushination/.ssh/id_rsa.pub` and <ctrl+c> my ssh key in
 You have to go to [github](https://github.com) and enter your settings.  
 ![](https://i.imgur.com/nyMXco6.png)
 ## Step 4.9 Enter SSh and GPG keys
-In the settings there should be a button that looks like the following
+In the settings there should be a button that looks like the following  
 ![](https://i.imgur.com/uptC8PF.png)
 ## Step 4.91 Create key
 You create a new key with any title with the key type of Authentification Key and add your ssh-key like the following
