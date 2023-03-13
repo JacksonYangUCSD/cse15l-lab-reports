@@ -48,8 +48,8 @@ To test the files legitimacy I used junit.
 First I had to get to the directory, using `cd lab7` then 
 I pressed <up> 8 times and pressed <enter>
 Then I pressed <up> 8 times again and pressed <enter>
-  In order to get  
-  ![](https://i.imgur.com/KLJ5XzD.png)
+In order to get  
+![](https://i.imgur.com/KLJ5XzD.png)
 ## Step 7
   Now to fix the file I typed in `ls` to make sure I was in the right directory and proceeded to type in `nano ListExamples.java`.  
   Which brought me in a screen like this.  
@@ -64,7 +64,7 @@ Then I pressed <up> 8 times again and pressed <enter>
  ## Step 9
   I first used `git add ListExamples.java`.  
   Followed by a `git commit`
-  Which brought up a screen like ![](https://i.imgur.com/JsY5bmV.png)
+  Which brought up a screen like ![](https://i.imgur.com/JsY5bmV.png)   
   Where I had typed "Replaced index1 with index2 to fix the infinite loop."  
   Then I got out of the screen by pressed <shift+z> <shift+z>.  
   Then it was followed with a `git push`.  Which looks like
