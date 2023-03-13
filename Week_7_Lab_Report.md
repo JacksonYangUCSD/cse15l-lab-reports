@@ -48,8 +48,8 @@ To test the files legitimacy I used junit.
 First I had to get to the directory, using `cd lab7` then 
 I pressed <up> 8 times and pressed <enter>
 Then I pressed <up> 8 times again and pressed <enter>
-In order to get  
-![](https://i.imgur.com/KLJ5XzD.png)
+In order to get 
+  ![](https://i.imgur.com/KLJ5XzD.png)
 ## Step 7
   Now to fix the file I typed in `ls` to make sure I was in the right directory and proceeded to type in `nano ListExamples.java`.  
   Which brought me in a screen like this.  
