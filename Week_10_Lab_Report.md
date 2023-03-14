@@ -5,7 +5,7 @@
 One example would be:  
 ![](https://i.imgur.com/IeUMbqF.png)  
 Another example would be:  
-![](https://i.imgur.com/qzVxeK9.png)
+![](https://i.imgur.com/qzVxeK9.png)  
 This is useful becasue it allows you to delete straight from the terminal instead of having to go back to the folder.  
 2. `find -P repo` finds everything with the repo name connected.   
 One example would be:  
@@ -80,7 +80,7 @@ non-fiction/OUP/Castro/chZ.txt
 ```
 This is useful because it allows us to visualize every file in the folder without having to go through every single one of them.  
 3. `find . -type`returns a list of every file inside of the folder.  
-One example would be:
+One example would be:  
 ```
 find . -type d
 .
@@ -318,9 +318,9 @@ Another example would be:
 ./travel_guides/berlitz2/Vallarta-WhatToDo.txt
 ./travel_guides/berlitz2/Vallarta-WhereToGo.txt
 ```
-This is useful because it allows us to see everything inside a folder of a specific format. 
-4. `find -size` Which allows you to find everything of a certain size.  
-One example would be:  
+This is useful because it allows us to see everything inside a folder of a specific format.  
+4. `find -size` Which allows you to find everything of a certain size.   
+One example would be:   
 ```
  find . -size -100k
 .
@@ -546,7 +546,7 @@ One example would be:
 ./travel_guides/berlitz2/Vallarta-WhatToDo.txt
 ./travel_guides/berlitz2/Vallarta-WhereToGo.txt
 ```
-Another example would be:  
+Another example would be:   
 ```
 find . -size +100k
 ./travel_guides/berlitz1/WhereToFrance.txt
