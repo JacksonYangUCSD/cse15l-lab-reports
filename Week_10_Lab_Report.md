@@ -560,4 +560,4 @@ find . -size +100k
 ```
 This is useful because it finds everything above or below a certain size, which helps when you're sorting by size.  
 
-## This information was found by using this ![link](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/) and this ![link](https://math2001.github.io/article/bashs-find-command/).
+## This information was found by using this [link](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/) and this [link](https://math2001.github.io/article/bashs-find-command/).
